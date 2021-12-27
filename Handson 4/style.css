@@ -1,0 +1,9 @@
+h1,
+h2 {
+    color: red;
+}
+
+ol li {
+    margin-bottom: 2%;
+    color: rgb(157, 50, 50);
+}
