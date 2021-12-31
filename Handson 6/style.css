@@ -44,7 +44,7 @@ hr{
     border:4px solid greenyellow;
     /* display:flex;
     flex-flow: row wrap; */
-    margin:10px;
+    margin:20px 10px;
     display:inline-block
     
 }
