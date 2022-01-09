@@ -1,0 +1,213 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width:100%;
+    height:98vh;
+    background-image: url('./image/shara\ desert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav
+{
+    position: absolute;
+    top:30px;
+    width:100%;
+    height:9%;
+}
+.logo{
+    background-image: url('./image/camel.png');
+    height: 60px;
+    width: 74px;
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 62px;
+}
+ul li{
+    display: inline-flex;
+    float: right;
+    font-size: larger;
+    padding:1% 2%;
+    font-weight: bold;
+    color: white;
+}
+
+#circle{
+    position: relative;
+    width: 2px;
+    height:15px;
+    background-color: gray;
+    border-radius: 40%;
+}
+i{
+    position: relative;
+    top: -10px;
+    left:-20px;
+}
+.row{
+    width: 100%;
+    height:75vh;
+    position: absolute;
+    top:100px;
+    display:flex;
+}
+.box1 , .box2{
+    width: 50%;
+    margin:1%;
+    justify-content: center;
+}
+.box1{
+    padding: 7% 1% 8% 3% ;
+}
+.heading{
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+}
+p{
+    color: white;
+    margin-bottom: 10px;
+}
+button{
+    width: 40%;
+    padding: 1% ;
+    height: 20%;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 60px;
+    font-size: medium;
+}
+.box2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 2% 2%  ;
+}
+.flex{
+    width:28%;
+    height:40%;
+    border:1px solid black;
+    justify-content: center;
+    padding:2% ;
+    margin:2% 2% 4% ;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-timing-function: linear;
+}
+.flex h3{
+    color: white;
+    margin-bottom: 5px;
+}
+.b1{
+    background-image: url('./image/pic-1.png');
+    
+}
+.b2{
+    background-image: url('./image/pic-2.png');
+}
+.b3{
+    background-image: url('./image/pic-3.png');
+}
+.b4{
+    background-image: url('./image/pic-4.png');
+}
+.flex:hover{
+    transform: translateY(-10px);
+}
+
+@media (max-width:856px)
+{
+    .container{
+        height:1900px;
+        background-image: url('./image/shara\ desert.jpg');
+        background-repeat: repeat-y;
+        background-size:cover;
+        background-size: 856px 600px;;
+        background-position: center;
+    }
+    .logo{
+        background-image: url('./image/camel.png');
+        height: 60px;
+        width: 74px;
+        background-size: cover;
+        cursor: pointer;
+        position: absolute;
+        left: 32px;
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #circle{
+        position: relative;
+        /* width: 5px;
+        height:15px; */
+        padding:15px 20px;
+        background-color: gray;
+        border-radius: 35%;
+    }
+    ul li{
+        display: inline-flex;
+        float: right;
+        font-size: larger;
+        margin-right: 5%;
+        padding:1% 2%;
+        font-weight: bold;
+        color: white;
+    }
+    p{
+        font-size: larger;
+    }
+    .row{
+        width:100%;
+        height:75vh;
+        position: absolute;
+        top:40px;
+        display: block;
+    }
+    .box1 , .box2{
+        width: 856px;
+        margin:1%;
+        justify-content: center;
+    }
+    button{
+        margin-top:20px ;
+        width:30%;
+        height: 7vh;
+    }
+    .box2{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        padding: 2% 2%  ;
+        justify-content: center;
+    }
+    .flex{
+        width:70%;
+        height:40vh;
+        border:1px solid black;
+        justify-content: center;
+        padding:2% ;
+        margin:2% 10%  ;
+        border-radius: 15px;
+        animation-timing-function: linear;
+    }
+    .flex:hover{
+        transform: translateY(-10px);
+    }
+
+}
+
+
+
+
